@@ -2,7 +2,17 @@
 
 Projeto não faz persistência no banco de dados, os dados são armazenados em memória.
 
-Rotas:
+## Requisitos
+- Node 12 ou mais recente
+- Yarn 1
+
+## Running do projeto:
+- Acessar o diretório do projeto.
+- Executar ``` yarn ``` para atualizar as dependências do projeto
+- Executar ``` yarn dev ``` para rodar o servidor de API
+
+
+## Rotas:
   - /repositories
     - POST -> Inclusão de um novo projeto, exemplo:
     ```json
@@ -61,3 +71,7 @@ Rotas:
         "likes": 37
       }
     ```
+
+
+### To-do
+- Implementar os testes unitários das funcionalidades atuais

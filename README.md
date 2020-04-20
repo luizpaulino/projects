@@ -74,4 +74,6 @@ Projeto não faz persistência no banco de dados, os dados são armazenados em m
 
 
 ### To-do
-- Implementar os testes unitários das funcionalidades atuais
+- [X] Colocar o README do projeto bem documentado
+- [ ] Colocar uma opção de README em inglês
+- [ ] Implementar os testes unitários das funcionalidades atuais
